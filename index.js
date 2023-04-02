@@ -34,6 +34,12 @@ app.get('/contact',(req,res) =>{
     res.status(200).render('contact.pug', params);
 })
 
+app.get('/certificates',(req,res) =>{
+    const params = {};
+
+    res.status(200).render('certificates.pug', params);
+})
+
 // app.get('/home',(req,res) =>{
 //     const params = {
 //         names: home
